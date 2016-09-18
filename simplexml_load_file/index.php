@@ -5,14 +5,14 @@ $time_start = microtime(true);
 
 // 3種類のフィードURLを登録
 $urls = array(
-  'rss1' => 'http://info.cocolog-nifty.com/info/index.rdf',
-  'rss2' => 'http://info.cocolog-nifty.com/info/rss.xml',
-  'atom' => 'http://info.cocolog-nifty.com/info/atom.xml'
+  'RSS1.0' => 'http://info.cocolog-nifty.com/info/index.rdf',
+  'RSS2.0' => 'http://info.cocolog-nifty.com/info/rss.xml',
+  'Atom' => 'http://info.cocolog-nifty.com/info/atom.xml'
 );
 
 foreach ($urls as $name => $url) {
   echo '<hr>';
-  echo '<h3>' . $name . '</h3>';
+  echo '<h2>' . $name . '</h2>';
 
   $rss = simplexml_load_file($url);
   /**
@@ -55,4 +55,4 @@ foreach ($urls as $name => $url) {
 
 // 実行時間を算出
 $time = microtime(true) - $time_start;
-echo "{$time} 秒";
+echo "<hr><h2>{$time} 秒</h2>";
