@@ -11,3 +11,6 @@
 - [SimplePie (キャッシュ有効)](http://www.usamimi.info/~sutara/sample2/demo-compare-rss/simplepie/enable-cache.php)
 - [SimpelPie (キャッシュ無効)](http://www.usamimi.info/~sutara/sample2/demo-compare-rss/simplepie/disable-cache.php)
 - [SimpleXML (自作)](http://www.usamimi.info/~sutara/sample2/demo-compare-rss/simplexml_load_file/)
+
+- - -
+- ブログ: http://sutara79.hatenablog.com/entry/2016/09/18/102840
